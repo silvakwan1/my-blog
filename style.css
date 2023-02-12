@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    font-family:'Lora', serif;
+}
+header{
+    background-color: rgb(165, 177, 165);
+    padding: 1rem;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#link{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+a:link{
+   text-decoration: none;
+   color: antiquewhite;
+}
+a:hover{
+    text-decoration: none;
+    color: red;
+}
+main{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: .8rem;
+}
+p ,figure{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
